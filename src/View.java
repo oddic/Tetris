@@ -14,13 +14,13 @@ public class View extends JPanel implements KeyListener {
     private Runnable completion = () -> {};
 
     static final Color[] colors = {Color.black,
-            new Color(0x0540F2), // I
-            new Color(0x3D6AF2), // O
-            new Color(0x02732A), // T
-            new Color(0xF2E205), // Z
-            new Color(0xF24130), // S
-            new Color(0x02732A), // L
-            new Color(0xF2E205), // J
+        new Color(0x0540F2), // I
+        new Color(0x3D6AF2), // O
+        new Color(0x02732A), // T
+        new Color(0xF2E205), // Z
+        new Color(0xF24130), // S
+        new Color(0x02732A), // L
+        new Color(0xF2E205), // J
     };
 
     public View(Game game) {
